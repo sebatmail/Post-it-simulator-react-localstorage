@@ -13,7 +13,7 @@ export function PostItApp() {
       const guardadas = localStorage.getItem(CLAVE);
       if (guardadas && guardadas !== 'undefined') {
         const parseadas = JSON.parse(guardadas);
-        if (Array.isArray(parseadas) && parseadas.length > 0) {
+        if (Array.isArray(parseadas)) {
           return parseadas;
         }
       }
