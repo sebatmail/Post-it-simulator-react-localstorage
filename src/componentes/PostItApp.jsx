@@ -21,16 +21,16 @@ export function PostItApp() {
       console.warn('No se pudieron cargar las notas guardadas:', error);
     }
     
-    // Si no hay nada guardado, cargamos los Post-Its por defecto
+    // Si no hay nada guardado, cargamos los Post-Its por defecto idénticos al PDF
     return [
-      { id: 1, titulo: "Subir las notas", descripcion: "Antes de fin de\nsemestre", importante: false },
+      { id: 1, titulo: "Subir las notas", descripcion: "Antes de fin de semestre", importante: false },
       { id: 2, titulo: "Regar las plantas", descripcion: "Dia por medio", importante: true },
-      { id: 3, titulo: "Renovar Tarjeta", descripcion: "Antes de fin de mes\nque se esta por\nvencer.", importante: false },
-      { id: 4, titulo: "Cambiar Aceite\nAuto", descripcion: "Preguntar a mi viejo\ndonde lo llevo.", importante: true },
-      { id: 5, titulo: "Comprar Regalo", descripcion: "Buscar el fin de\nsemana para que\nllegue", importante: false },
-      { id: 6, titulo: "Subir Material", descripcion: "Comprimir y subir los\ntutoriales", importante: false },
+      { id: 3, titulo: "Renovar Tarjeta", descripcion: "Antes de fin de mes que se esta por vencer.", importante: false },
+      { id: 4, titulo: "Cambiar Aceite Auto", descripcion: "Preguntar a mi viejo donde lo llevo.", importante: false },
+      { id: 5, titulo: "Comprar Regalo", descripcion: "Buscar el fin de semana para que llegue", importante: false },
+      { id: 6, titulo: "Subir Material", descripcion: "Comprimir y subir los tutoriales", importante: false },
       { id: 7, titulo: "Ordenar 3er Piso", descripcion: "Mueble de las consolas", importante: false },
-      { id: 8, titulo: "Ir al Aeropuerto", descripcion: "Proximo Miercoles 13\nhrs", importante: true }
+      { id: 8, titulo: "Ir al Aeropuerto", descripcion: "Proximo Miercoles 13 hrs", importante: true }
     ];
   });
 
